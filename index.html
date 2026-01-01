@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Großer Taschenrechner</title>
+    <title>calculator</title>
     <style>
         /* Grundlayout */
         body {
@@ -90,8 +90,8 @@
 
             <!-- Fünfte Zeile -->
             <button onclick="add0()"><img src="0.png" alt="0"></button>
-            <button><img src="koma.png" alt=","></button>
-            <button><img src="delete.png" alt="Löschen"></button>
+            <button onclick="calc('.')"><img src="koma.png" alt=","></button>
+            <button onclick="del()"><img src="delete.png" alt="Löschen"></button>
             <button onclick="fin()"><img src="ist_gleich.png" alt="="></button>
         </div>
     </div>
@@ -129,4 +129,5 @@
 
 </body>
 </html>
+
 
